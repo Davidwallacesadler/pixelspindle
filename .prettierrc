@@ -1,0 +1,7 @@
+{
+    "arrowParens": "always",
+    "singleQuote": true,
+    "no-debugger": false,
+    "spaces-in-parens": "never",
+    "semi": false
+}
