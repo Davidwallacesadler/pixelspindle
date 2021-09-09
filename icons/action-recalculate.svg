@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <g id="action-recalculate">
+    <path id="redo-arrow" d="M439.2,269.8C439.2,374.1,354.3,459,250,459S60.8,374.1,60.8,269.8c0-102.1,81.4-185.6,182.6-189.1l.2,39.4L343,62.2,243.1,5l.2,39.7C122.2,48.3,24.8,147.9,24.8,269.8,24.8,394,125.8,495,250,495S475.2,394,475.2,269.8Z"/>
+    <path id="calc-outline" d="M186.5,158.6a45,45,0,0,0-44.9,44.9V340.4a45,45,0,0,0,44.9,44.9h127a45,45,0,0,0,44.9-44.9V203.5a45,45,0,0,0-44.9-44.9Zm135.8,44.9V340.4a8.8,8.8,0,0,1-8.8,8.8h-127a8.8,8.8,0,0,1-8.8-8.8V203.5a8.8,8.8,0,0,1,8.8-8.9h127A8.8,8.8,0,0,1,322.3,203.5Z"/>
+    <rect id="screen" x="193.9" y="211.2" width="112" height="36.04"/>
+    <g id="buttons">
+      <rect id="button-sm" x="195" y="266.3" width="18" height="13.39"/>
+      <rect id="button-sm-2" data-name="button-sm" x="195" y="292" width="18" height="13.39"/>
+      <rect id="button-sm-3" data-name="button-sm" x="195" y="318.2" width="18" height="13.39"/>
+      <rect id="button-sm-4" data-name="button-sm" x="226" y="266.3" width="18" height="13.39"/>
+      <rect id="button-sm-5" data-name="button-sm" x="226" y="292" width="18" height="13.39"/>
+      <rect id="button-sm-6" data-name="button-sm" x="226" y="318.2" width="18" height="13.39"/>
+      <rect id="button-sm-7" data-name="button-sm" x="257.1" y="266.3" width="18" height="13.39"/>
+      <rect id="button-sm-8" data-name="button-sm" x="257.1" y="292" width="18" height="13.39"/>
+      <rect id="button-sm-9" data-name="button-sm" x="257.1" y="318.2" width="18" height="13.39"/>
+      <rect id="button-sm-10" data-name="button-sm" x="288.1" y="266.3" width="18" height="13.39"/>
+      <rect id="button-lg" x="288.1" y="292" width="18" height="39.66"/>
+    </g>
+  </g>
+</svg>

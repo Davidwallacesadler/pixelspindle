@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <g id="navbar-reports">
+    <polygon id="axes" points="495 449.6 5 449.6 5 10.7 24.2 10.7 24.2 430.4 495 430.4 495 449.6"/>
+    <rect id="line1" x="48.1" y="470.1" width="60.8" height="19.22"/>
+    <rect id="line2" x="144.6" y="470.1" width="60.7" height="19.22"/>
+    <rect id="line3" x="241.2" y="470.1" width="60.8" height="19.22"/>
+    <rect id="line4" x="337.7" y="470.1" width="60.8" height="19.22"/>
+    <rect id="line5" x="434.2" y="470.1" width="60.8" height="19.22"/>
+    <rect id="bar1" x="48.1" y="251.3" width="60.7" height="156.2"/>
+    <rect id="bar2" x="144.6" y="217.2" width="60.7" height="191.89"/>
+    <rect id="bar3" x="241.2" y="252.9" width="60.7" height="156.2"/>
+    <rect id="bar4" x="337.7" y="93.6" width="60.7" height="315.47"/>
+    <rect id="bar5" x="434.2" y="182.6" width="60.7" height="226.44"/>
+  </g>
+</svg>

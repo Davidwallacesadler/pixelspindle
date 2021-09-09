@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231f20;
+      }
+    </style>
+  </defs>
+  <g id="exited-status">
+    <path id="exited-outline" class="cls-1" d="M250,5C114.69,5,5,114.69,5,250S114.69,495,250,495,495,385.31,495,250,385.31,5,250,5ZM202.48,325V276.37H134.85V223.63h67.63V175l72.4,75Zm162.68,67.22H253.44V345L335,260.51V241.4l-81.59-84.53v-49.1H365.16Z"/>
+  </g>
+</svg>

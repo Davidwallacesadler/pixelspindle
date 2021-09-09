@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <g id="calendar">
+    <g id="calendarIcon">
+      <rect id="box9" x="105.9" y="159.8" width="51" height="47.04"/>
+      <rect id="box8" x="227.5" y="159.8" width="51" height="47.04"/>
+      <rect id="box7" x="348" y="159.8" width="51" height="47.04"/>
+      <rect id="box6" x="105.9" y="254.9" width="51" height="47.04"/>
+      <rect id="box5" x="227.5" y="254.9" width="51" height="47.04"/>
+      <rect id="box4" x="348" y="254.9" width="51" height="47.04"/>
+      <rect id="box3" x="105.9" y="350" width="51" height="47.04"/>
+      <rect id="box2" x="227.5" y="350" width="51" height="47.04"/>
+      <rect id="box1" x="348" y="350" width="51" height="47.04"/>
+      <path id="calendarOutline" d="M414.7,57.9H337.2V5H316.6V57.9H180.4V5H159.8V57.9H85.3a53.8,53.8,0,0,0-53.8,53.9V441.2A53.8,53.8,0,0,0,85.3,495H414.7a53.8,53.8,0,0,0,53.8-53.8V111.8A53.8,53.8,0,0,0,414.7,57.9Zm.7,416.5H85.6A33.6,33.6,0,0,1,52,440.9V111.1A33.6,33.6,0,0,1,85.6,77.5H415.4a33.5,33.5,0,0,1,33.5,33.6V440.9A33.5,33.5,0,0,1,415.4,474.4Z"/>
+    </g>
+  </g>
+</svg>

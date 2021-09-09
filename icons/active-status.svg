@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231f20;
+      }
+    </style>
+  </defs>
+  <g id="active-status">
+    <path id="active-play" class="cls-1" d="M250,5C114.69,5,5,114.69,5,250S114.69,495,250,495,495,385.31,495,250,385.31,5,250,5ZM176.43,390.37V109.63L375.25,250Z"/>
+  </g>
+</svg>

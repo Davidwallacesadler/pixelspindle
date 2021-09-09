@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <g id="contact-phone-mobile">
+    <path id="cell-outline" d="M319.4,76.5h-209a42.3,42.3,0,0,0-42.3,42.3V452.7A42.3,42.3,0,0,0,110.4,495h209a42.2,42.2,0,0,0,42.2-42.3V118.8A42.2,42.2,0,0,0,319.4,76.5ZM174.6,97.3h80.6v16.8H174.6Zm40.3,382.6a23.1,23.1,0,1,1,23-23.1A23,23,0,0,1,214.9,479.9Zm123.6-61.4H91.3V139.6H338.5Z"/>
+    <path id="first-arch" d="M391.9,109.5H375.2a47,47,0,0,0-46.9-46.9V45.9A63.6,63.6,0,0,1,391.9,109.5Z"/>
+    <path id="second-arch" d="M431.9,108.6H415.1a86.9,86.9,0,0,0-86.8-86.9V5A103.7,103.7,0,0,1,431.9,108.6Z"/>
+    <rect id="screen-line-top" x="92.5" y="270.7" width="244.8" height="16.74" transform="translate(-134.4 233.7) rotate(-45)"/>
+    <rect id="screen-line-bottom" x="192" y="295" width="116.2" height="16.74" transform="translate(-141.2 265.7) rotate(-45)"/>
+  </g>
+</svg>

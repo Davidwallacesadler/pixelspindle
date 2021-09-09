@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <g id="list-view">
+    <path id="line1" d="M474.1,217.4H25.9a20.1,20.1,0,0,1,0-40.1H474.1a20.1,20.1,0,0,1,0,40.1Z"/>
+    <path id="line2" d="M475,322.7H26.8a20.1,20.1,0,0,1,0-40.1H475a20.1,20.1,0,0,1,0,40.1Z"/>
+    <path id="line3" d="M475,427.9H26.8a20,20,0,0,1,0-40H475a20,20,0,0,1,0,40Z"/>
+    <rect id="rectangle1" x="5" y="72.1" width="89.4" height="40.06"/>
+    <rect id="rectangle2" x="136.7" y="72.1" width="89.4" height="40.06"/>
+    <rect id="rectangle3" x="268.4" y="72.1" width="89.4" height="40.06"/>
+    <rect id="rectangle4" x="400" y="72.1" width="89.4" height="40.06"/>
+  </g>
+</svg>
