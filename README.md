@@ -1,2 +1,2 @@
-# Pixel Spindle 🟦
-Awesome assets 🖼 and icons 🌠 for your beautiful web pages 🖥 and appilcations 📱 
+# Pixel Spindle
+Handcrafted assets and icons to beautify your web pages and appilcations!
