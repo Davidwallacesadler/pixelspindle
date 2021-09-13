@@ -1,5 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
-  <g id="data-tbl-descending">
-    <polygon id="down-arrow" points="269.7 393.4 269.7 5 230.3 5 230.3 393.4 191.2 393.4 250 495 308.8 393.4 269.7 393.4"/>
-  </g>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 500 500"
+  width="500"
+  height="500"
+  fill="#ffffff"
+>
+  <polygon points="269.7 393.4 269.7 5 230.3 5 230.3 393.4 191.2 393.4 250 495 308.8 393.4 269.7 393.4" />
 </svg>

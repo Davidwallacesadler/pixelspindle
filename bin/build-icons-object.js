@@ -1,4 +1,3 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import path from 'path'
 import cheerio from 'cheerio'
 import { minify } from 'html-minifier'
@@ -11,7 +10,7 @@ import { minify } from 'html-minifier'
  */
 function buildIconsObject(svgFiles, getSvg) {
   return svgFiles
-    .map((svgFile) => {
+    .map(svgFile => {
       const name = path.basename(svgFile, '.svg')
       const svg = getSvg(svgFile)
       const contents = getSvgContents(svg)

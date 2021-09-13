@@ -1,11 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
-  <g id="economic-status-data">
-    <polygon id="graph" points="53.2 405.9 38 394.2 217.1 161.7 308.8 280.7 455.7 90.2 490.8 128.3 476.7 141.3 457 119.9 308.8 312.2 217.1 193.2 53.2 405.9"/>
-    <polygon id="axes" points="495 449.6 5 449.6 5 10.7 24.2 10.7 24.2 430.4 495 430.4 495 449.6"/>
-    <rect id="line1" x="6.2" y="470.1" width="60.8" height="19.22"/>
-    <rect id="line2" x="113.2" y="470.1" width="60.7" height="19.22"/>
-    <rect id="line3" x="220.2" y="470.1" width="60.8" height="19.22"/>
-    <rect id="line4" x="327.2" y="470.1" width="60.8" height="19.22"/>
-    <rect id="line5" x="434.2" y="470.1" width="60.8" height="19.22"/>
-  </g>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 500 500"
+  width="500"
+  height="500"
+  fill="#ffffff"
+>
+  <polygon points="53.2 405.9 38 394.2 217.1 161.7 308.8 280.7 455.7 90.2 490.8 128.3 476.7 141.3 457 119.9 308.8 312.2 217.1 193.2 53.2 405.9" />
+  <polygon points="495 449.6 5 449.6 5 10.7 24.2 10.7 24.2 430.4 495 430.4 495 449.6" />
+  <rect x="6.2" y="470.1" width="60.8" height="19.22" />
+  <rect x="113.2" y="470.1" width="60.7" height="19.22" />
+  <rect x="220.2" y="470.1" width="60.8" height="19.22" />
+  <rect x="327.2" y="470.1" width="60.8" height="19.22" />
+  <rect x="434.2" y="470.1" width="60.8" height="19.22" />
 </svg>

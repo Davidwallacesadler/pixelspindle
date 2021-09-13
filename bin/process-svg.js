@@ -1,4 +1,3 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import Svgo from 'svgo'
 import cheerio from 'cheerio'
 import { format } from 'prettier'
@@ -17,7 +16,7 @@ function processSvg(svg) {
       .then(format)
       // remove semicolon inserted by prettier
       // because prettier thinks it's formatting JSX not HTML
-      .then((svg) => svg.replace(/;/g, ''))
+      .then(svg => svg.replace(/;/g, ''))
   )
 }
 
@@ -36,7 +35,7 @@ function optimize(svg) {
     ],
   })
 
-  return new Promise((resolve) => {
+  return new Promise(resolve => {
     svgo.optimize(svg, ({ data }) => resolve(data))
   })
 }
@@ -49,7 +48,7 @@ function optimize(svg) {
 function setAttrs(svg) {
   const $ = cheerio.load(svg)
 
-  Object.keys(DEFAULT_ATTRS).forEach((key) =>
+  Object.keys(DEFAULT_ATTRS).forEach(key =>
     $('svg').attr(key, DEFAULT_ATTRS[key]),
   )
 

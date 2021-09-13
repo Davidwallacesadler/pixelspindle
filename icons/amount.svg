@@ -1,37 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#231F20;}
-</style>
-<g id="slots">
-</g>
-<g id="work-state">
-</g>
-<g id="applicant-pool">
-</g>
-<g id="action-prioritize-posting">
-</g>
-<g id="recruitment-lead">
-</g>
-<g id="workers-comp-code">
-</g>
-<g id="post-to-applicant-pool">
-</g>
-<g id="grant-details">
-</g>
-<g id="check">
-</g>
-<g id="percentage">
-</g>
-<g id="Layer_11">
-	<g>
-		<path d="M112,495l19.6-134.9H70.6v-69.4h73.1l12.1-84.4H91.7v-70.1h74.6L185.2,5h67.1l-18.9,131.2H302L321.6,5h67.1l-19.6,131.2
-			h60.3v70.1h-70.9l-12,84.4h62.6v69.4h-73.9L316.3,495h-67.8l18.8-134.9h-68.6L179.9,495H112z M279.4,290.7l12.1-84.4h-68.6
-			l-12.1,84.4H279.4z"/>
-	</g>
-</g>
-<g id="Layer_12">
-</g>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 500 500"
+  width="500"
+  height="500"
+  fill="#ffffff"
+>
+  <path d="M112 495l19.6-134.9h-61v-69.4h73.1l12.1-84.4H91.7v-70.1h74.6L185.2 5h67.1l-18.9 131.2H302L321.6 5h67.1l-19.6 131.2h60.3v70.1h-70.9l-12 84.4h62.6v69.4h-73.9L316.3 495h-67.8l18.8-134.9h-68.6L179.9 495H112zm167.4-204.3l12.1-84.4h-68.6l-12.1 84.4h68.6z" />
 </svg>

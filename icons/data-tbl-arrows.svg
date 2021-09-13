@@ -1,6 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
-  <g id="data-tbl-arrows">
-    <polygon id="up-arrow" points="63.8 5 5 106.6 44.2 106.6 44.2 495 83.5 495 83.5 106.6 122.6 106.6 63.8 5"/>
-    <polygon id="down-arrow" points="455.8 393.4 455.8 5 416.5 5 416.5 393.4 377.4 393.4 436.2 495 495 393.4 455.8 393.4"/>
-  </g>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 500 500"
+  width="500"
+  height="500"
+  fill="#ffffff"
+>
+  <polygon points="63.8 5 5 106.6 44.2 106.6 44.2 495 83.5 495 83.5 106.6 122.6 106.6 63.8 5" />
+  <polygon points="455.8 393.4 455.8 5 416.5 5 416.5 393.4 377.4 393.4 436.2 495 495 393.4 455.8 393.4" />
 </svg>

@@ -31,7 +31,7 @@ class Icon {
   /**
    * Return string representation of an `Icon`.
    *
-   * Added for backward compatibility. If old code expects `feather.icons.<name>`
+   * Added for backward compatibility. If old code expects `pixelspindle.icons.<name>`
    * to be a string, `toString()` will get implicitly called.
    *
    * @returns {string}
@@ -48,7 +48,7 @@ class Icon {
  */
 function attrsToString(attrs) {
   return Object.keys(attrs)
-    .map((key) => `${key}="${attrs[key]}"`)
+    .map(key => `${key}="${attrs[key]}"`)
     .join(' ')
 }
 

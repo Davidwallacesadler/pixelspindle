@@ -9,7 +9,7 @@ import icons from './icons'
  */
 function toSvg(name, attrs = {}) {
   console.warn(
-    'feather.toSvg() is deprecated. Please use feather.icons[name].toSvg() instead.',
+    'pixelspindle.toSvg() is deprecated. Please use pixelspindle.icons[name].toSvg() instead.',
   )
 
   if (!name) {
@@ -18,7 +18,9 @@ function toSvg(name, attrs = {}) {
 
   if (!icons[name]) {
     throw new Error(
-      `No icon matching '${name}'. See the complete list of icons at https://feathericons.com`,
+      `No icon matching '${
+        name
+      }'. See the complete list of icons at https://pixelspindleicons.com`,
     )
   }
 

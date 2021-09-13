@@ -1,32 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #fff;
-      }
-
-      .cls-2 {
-        fill: #666766;
-      }
-
-      .cls-3 {
-        fill: #cccccb;
-      }
-    </style>
-  </defs>
-  <g id="assignment-change-dates">
-    <path id="calendar-background" class="cls-1" d="M474.46,427.52V190.3H26.25v245a46.21,46.21,0,0,0,44,38.36H429.78A46.23,46.23,0,0,0,474.46,427.52Z"/>
-    <path id="calendar-outline-3" class="cls-2" d="M428.25,52.56H416.61a10.27,10.27,0,0,0,0,20.54h11.64a46.26,46.26,0,0,1,46.21,46.2V427.52a46.26,46.26,0,0,1-46.21,46.21H71.75a46.26,46.26,0,0,1-46.21-46.21V119.3A46.26,46.26,0,0,1,71.75,73.1h43.64v38.12a10.27,10.27,0,1,0,20.54,0V16a10.27,10.27,0,0,0-20.54,0V52.56H71.75A66.82,66.82,0,0,0,5,119.3V427.52a66.82,66.82,0,0,0,66.75,66.75h356.5A66.82,66.82,0,0,0,495,427.52V119.3A66.82,66.82,0,0,0,428.25,52.56Z"/>
-    <path id="calendar-outline-2" class="cls-2" d="M204.65,73.1H366.82v38.12a10.27,10.27,0,0,0,20.54,0V16a10.27,10.27,0,0,0-20.54,0V52.56H204.65a10.27,10.27,0,0,0,0,20.54Z"/>
-    <path id="calendar-outline-1" class="cls-2" d="M162.88,73.1h1.51a10.27,10.27,0,1,0,0-20.54h-1.51a10.27,10.27,0,1,0,0,20.54Z"/>
-    <rect id="calendar-date-1-2" data-name="calendar-date-1" class="cls-3" x="58.04" y="230.65" width="62.94" height="62.94"/>
-    <rect id="calendar-date-5-2" data-name="calendar-date-5" class="cls-3" x="58.04" y="361.59" width="62.94" height="62.94"/>
-    <rect id="calendar-date-2-2" data-name="calendar-date-2" class="cls-3" x="164.39" y="230.65" width="62.94" height="62.94"/>
-    <rect id="calendar-date-6-2" data-name="calendar-date-6" class="cls-3" x="164.39" y="361.59" width="62.94" height="62.94"/>
-    <rect id="calendar-date-3-2" data-name="calendar-date-3" class="cls-3" x="270.74" y="230.65" width="62.94" height="62.94"/>
-    <rect id="calendar-date-7-2" data-name="calendar-date-7" class="cls-3" x="270.74" y="361.59" width="62.94" height="62.94"/>
-    <rect id="calendar-date-4-2" data-name="calendar-date-4" class="cls-3" x="377.08" y="230.65" width="62.94" height="62.94"/>
-    <rect id="calendar-dark-date" class="cls-2" x="377.08" y="361.59" width="62.94" height="62.94"/>
-    <path id="calendar-header" class="cls-3" d="M428.25,73.1H416.61a10.27,10.27,0,0,1-10.27-10.27c0-.06,0-.11,0-.17h-19v48.56a10.27,10.27,0,0,1-20.54,0V73.1H204.65a10.27,10.27,0,0,1-10.27-10.27c0-.06,0-.11,0-.17H174.64c0,.06,0,.11,0,.17A10.27,10.27,0,0,1,164.39,73.1h-1.51a10.27,10.27,0,0,1-10.27-10.27c0-.06,0-.11,0-.17H135.93v48.56a10.27,10.27,0,1,1-20.54,0V73.1H71.75a46.26,46.26,0,0,0-46.21,46.2v71H474.46v-71A46.26,46.26,0,0,0,428.25,73.1Z"/>
-  </g>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 500 500"
+  width="500"
+  height="500"
+  fill="#ffffff"
+>
+  <path
+    class="cls-1"
+    d="M474.46 427.52V190.3H26.25v245a46.21 46.21 0 0 0 44 38.36h359.53a46.23 46.23 0 0 0 44.68-46.14z"
+  />
+  <path
+    class="cls-2"
+    d="M428.25 52.56h-11.64a10.27 10.27 0 0 0 0 20.54h11.64a46.26 46.26 0 0 1 46.21 46.2v308.22a46.26 46.26 0 0 1-46.21 46.21H71.75a46.26 46.26 0 0 1-46.21-46.21V119.3a46.26 46.26 0 0 1 46.21-46.2h43.64v38.12a10.27 10.27 0 1 0 20.54 0V16a10.27 10.27 0 0 0-20.54 0v36.56H71.75A66.82 66.82 0 0 0 5 119.3v308.22a66.82 66.82 0 0 0 66.75 66.75h356.5A66.82 66.82 0 0 0 495 427.52V119.3a66.82 66.82 0 0 0-66.75-66.74z"
+  />
+  <path
+    class="cls-2"
+    d="M204.65 73.1h162.17v38.12a10.27 10.27 0 0 0 20.54 0V16a10.27 10.27 0 0 0-20.54 0v36.56H204.65a10.27 10.27 0 0 0 0 20.54z"
+  />
+  <path
+    class="cls-2"
+    d="M162.88 73.1h1.51a10.27 10.27 0 1 0 0-20.54h-1.51a10.27 10.27 0 1 0 0 20.54z"
+  />
+  <rect
+    data-name="calendar-date-1"
+    class="cls-3"
+    x="58.04"
+    y="230.65"
+    width="62.94"
+    height="62.94"
+  />
+  <rect
+    data-name="calendar-date-5"
+    class="cls-3"
+    x="58.04"
+    y="361.59"
+    width="62.94"
+    height="62.94"
+  />
+  <rect
+    data-name="calendar-date-2"
+    class="cls-3"
+    x="164.39"
+    y="230.65"
+    width="62.94"
+    height="62.94"
+  />
+  <rect
+    data-name="calendar-date-6"
+    class="cls-3"
+    x="164.39"
+    y="361.59"
+    width="62.94"
+    height="62.94"
+  />
+  <rect
+    data-name="calendar-date-3"
+    class="cls-3"
+    x="270.74"
+    y="230.65"
+    width="62.94"
+    height="62.94"
+  />
+  <rect
+    data-name="calendar-date-7"
+    class="cls-3"
+    x="270.74"
+    y="361.59"
+    width="62.94"
+    height="62.94"
+  />
+  <rect
+    data-name="calendar-date-4"
+    class="cls-3"
+    x="377.08"
+    y="230.65"
+    width="62.94"
+    height="62.94"
+  />
+  <rect class="cls-2" x="377.08" y="361.59" width="62.94" height="62.94" />
+  <path
+    class="cls-3"
+    d="M428.25 73.1h-11.64a10.27 10.27 0 0 1-10.27-10.27v-.17h-19v48.56a10.27 10.27 0 0 1-20.54 0V73.1H204.65a10.27 10.27 0 0 1-10.27-10.27v-.17h-19.74v.17a10.27 10.27 0 0 1-10.25 10.27h-1.51a10.27 10.27 0 0 1-10.27-10.27v-.17h-16.68v48.56a10.27 10.27 0 1 1-20.54 0V73.1H71.75a46.26 46.26 0 0 0-46.21 46.2v71h448.92v-71a46.26 46.26 0 0 0-46.21-46.2z"
+  />
 </svg>

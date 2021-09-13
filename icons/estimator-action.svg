@@ -1,16 +1,80 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
-  <g id="estimator-action">
-    <path id="outline" d="M414.2,495H85.8a53.6,53.6,0,0,1-53.5-53.5V58.5A53.6,53.6,0,0,1,85.8,5H414.2a53.6,53.6,0,0,1,53.5,53.5v383A53.6,53.6,0,0,1,414.2,495ZM85.8,40.9A17.7,17.7,0,0,0,68.1,58.5v383a17.7,17.7,0,0,0,17.7,17.6H414.2a17.7,17.7,0,0,0,17.7-17.6V58.5a17.7,17.7,0,0,0-17.7-17.6Z"/>
-    <path id="screen" d="M384.6,222.2H115.4A24.1,24.1,0,0,1,91.3,198V99.1A24.1,24.1,0,0,1,115.4,75H384.6a24.1,24.1,0,0,1,24.1,24.1V198A24.1,24.1,0,0,1,384.6,222.2ZM127.1,186.3H372.9V110.8H127.1Z"/>
-    <rect id="rectangle" x="271.5" y="294.4" width="164.8" height="84.58" transform="translate(17.2 690.6) rotate(-90)"/>
-    <rect id="square1" x="103.5" y="254.3" width="30.1" height="30.06" transform="translate(-150.8 387.8) rotate(-90)"/>
-    <rect id="square2" x="177.5" y="254.3" width="30.1" height="30.06" transform="translate(-76.8 461.9) rotate(-90)"/>
-    <rect id="square3" x="251.5" y="254.3" width="30.1" height="30.06" transform="translate(-2.7 535.9) rotate(-90)"/>
-    <rect id="square4" x="103.5" y="318.5" width="30.1" height="30.06" transform="translate(-215 452) rotate(-90)"/>
-    <rect id="square5" x="177.5" y="318.5" width="30.1" height="30.06" transform="translate(-141 526) rotate(-90)"/>
-    <rect id="square6" x="251.5" y="318.5" width="30.1" height="30.06" transform="translate(-66.9 600.1) rotate(-90)"/>
-    <rect id="square7" x="103.5" y="389" width="30.1" height="30.06" transform="translate(-285.5 522.6) rotate(-90)"/>
-    <rect id="square8" x="177.5" y="389" width="30.1" height="30.06" transform="translate(-211.5 596.6) rotate(-90)"/>
-    <rect id="square9" x="251.5" y="389" width="30.1" height="30.06" transform="translate(-137.5 670.6) rotate(-90)"/>
-  </g>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 500 500"
+  width="500"
+  height="500"
+  fill="#ffffff"
+>
+  <path d="M414.2 495H85.8a53.6 53.6 0 0 1-53.5-53.5v-383A53.6 53.6 0 0 1 85.8 5h328.4a53.6 53.6 0 0 1 53.5 53.5v383a53.6 53.6 0 0 1-53.5 53.5zM85.8 40.9a17.7 17.7 0 0 0-17.7 17.6v383a17.7 17.7 0 0 0 17.7 17.6h328.4a17.7 17.7 0 0 0 17.7-17.6v-383a17.7 17.7 0 0 0-17.7-17.6z" />
+  <path d="M384.6 222.2H115.4A24.1 24.1 0 0 1 91.3 198V99.1A24.1 24.1 0 0 1 115.4 75h269.2a24.1 24.1 0 0 1 24.1 24.1V198a24.1 24.1 0 0 1-24.1 24.2zm-257.5-35.9h245.8v-75.5H127.1z" />
+  <rect
+    x="271.5"
+    y="294.4"
+    width="164.8"
+    height="84.58"
+    transform="rotate(-90 353.9 336.7)"
+  />
+  <rect
+    x="103.5"
+    y="254.3"
+    width="30.1"
+    height="30.06"
+    transform="rotate(-90 118.5 269.3)"
+  />
+  <rect
+    x="177.5"
+    y="254.3"
+    width="30.1"
+    height="30.06"
+    transform="rotate(-90 192.55 269.35)"
+  />
+  <rect
+    x="251.5"
+    y="254.3"
+    width="30.1"
+    height="30.06"
+    transform="rotate(-90 266.6 269.3)"
+  />
+  <rect
+    x="103.5"
+    y="318.5"
+    width="30.1"
+    height="30.06"
+    transform="rotate(-90 118.5 333.5)"
+  />
+  <rect
+    x="177.5"
+    y="318.5"
+    width="30.1"
+    height="30.06"
+    transform="rotate(-90 192.5 333.5)"
+  />
+  <rect
+    x="251.5"
+    y="318.5"
+    width="30.1"
+    height="30.06"
+    transform="rotate(-90 266.6 333.5)"
+  />
+  <rect
+    x="103.5"
+    y="389"
+    width="30.1"
+    height="30.06"
+    transform="rotate(-90 118.55 404.05)"
+  />
+  <rect
+    x="177.5"
+    y="389"
+    width="30.1"
+    height="30.06"
+    transform="rotate(-90 192.55 404.05)"
+  />
+  <rect
+    x="251.5"
+    y="389"
+    width="30.1"
+    height="30.06"
+    transform="rotate(-90 266.55 404.05)"
+  />
 </svg>

@@ -1,9 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
-  <g id="vertical-ellipses">
-    <g id="ellipsesIcon">
-      <circle id="dot3" cx="250" cy="427.7" r="67.3"/>
-      <circle id="dot2" cx="250" cy="250" r="67.3"/>
-      <circle id="dot1" cx="250" cy="72.3" r="67.3"/>
-    </g>
-  </g>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 500 500"
+  width="500"
+  height="500"
+  fill="#ffffff"
+>
+  <circle cx="250" cy="427.7" r="67.3" />
+  <circle cx="250" cy="250" r="67.3" />
+  <circle cx="250" cy="72.3" r="67.3" />
 </svg>
