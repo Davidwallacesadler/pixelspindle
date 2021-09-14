@@ -21,7 +21,7 @@ mkdir dist/icons
 npx babel-node bin/build-svgs.js
 
 # Add Index.js
-npx babel-node bin/build-index.js
+npx babel-node bin/build-root-files.js
 
 # Build JavaScript library
 # npx webpack --output-filename pixelspindle.js --mode development
