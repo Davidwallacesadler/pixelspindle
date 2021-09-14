@@ -98,9 +98,9 @@ const getPsSVGs = names => {
 }
 
 const vuePlugin = {
-  install(Vue) {
-    Vue.getPsSVG = getPsSVG
-    Vue.getPsSVGs = getPsSVGs
+  install(Vue, options) {
+    Vue.prototype.$getPsSVG = getPsSVG
+    Vue.prototype.$getPsSVGs = getPsSVGs
   },
 }
 
