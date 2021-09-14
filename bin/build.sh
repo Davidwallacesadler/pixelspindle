@@ -20,6 +20,9 @@ mkdir dist/icons
 # Build SVG icons
 npx babel-node bin/build-svgs.js
 
+# Add Index.js
+npx babel-node bin/build-index.js
+
 # Build JavaScript library
 # npx webpack --output-filename pixelspindle.js --mode development
 # npx webpack --output-filename pixelspindle.min.js --mode production
