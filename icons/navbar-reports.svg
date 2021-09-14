@@ -3,7 +3,7 @@
   viewBox="0 0 500 500"
   width="500"
   height="500"
-  fill="#ffffff"
+  fill="#000000"
 >
   <polygon points="495 449.6 5 449.6 5 10.7 24.2 10.7 24.2 430.4 495 430.4 495 449.6" />
   <rect x="48.1" y="470.1" width="60.8" height="19.22" />

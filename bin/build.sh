@@ -11,7 +11,7 @@ mkdir dist
 npx babel-node bin/build-icons-json.js
 
 # Build SVG sprite
-npx babel-node bin/build-sprite.js
+# npx babel-node bin/build-sprite.js
 
 # Create dist/icons directory
 npx rimraf dist/icons
@@ -21,5 +21,5 @@ mkdir dist/icons
 npx babel-node bin/build-svgs.js
 
 # Build JavaScript library
-npx webpack --output-filename pixelspindle.js --mode development
-npx webpack --output-filename pixelspindle.min.js --mode production
+# npx webpack --output-filename pixelspindle.js --mode development
+# npx webpack --output-filename pixelspindle.min.js --mode production

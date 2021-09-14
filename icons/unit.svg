@@ -3,7 +3,7 @@
   viewBox="0 0 500 500"
   width="500"
   height="500"
-  fill="#ffffff"
+  fill="#000000"
 >
   <rect x="5" y="270" width="225" height="225.04" rx="10.1" />
   <rect x="270" y="6.8" width="225" height="225.04" rx="10.1" />

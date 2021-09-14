@@ -1,29 +1,42 @@
 import icons from './icons'
 import replace from './replace'
 
-const iconsMixin = {
-  created() {
-    console.log(`Hello from the pixelspindle mixin!`)
-  },
-}
-const getIconHTML = name => {
+// Returns a string with svg contents if a match is found:
+const getPsSVG = name => {
   if (typeof name !== `string`) {
-    console.error(`$pxIconHTML Error - expects a string matching an icon name`)
+    console.error(`PixelSpindle Plugin Error - Icon name must be a string`)
     return ``
   }
   const icon = icons[name]
   if (icon) {
     return icon.toSvg()
   }
-  console.error(`$pxIconHTML Error - No icon matches ${name}`)
+  console.error(`PixelSpindle Plugin Error - No icon matches ${name}`)
   return ``
 }
 
-const PixelSpindleVue = {
-  install(Vue, options) {
-    Vue.mixin(iconsMixin)
-    Vue.prototype.$iconHTML = getIconHTML
+// Returns an object with { name : svg } value pairs:
+const getPsSVGs = names => {
+  if (typeof names !== `object` || !names.length) {
+    console.error(
+      `PixelSpindle Error - getPsSVGs expects an array of icon name strings`,
+    )
+    return {}
+  }
+  return names.reduce((acc, cur) => {
+    const svg = getPsSVG(cur)
+    if (svg.length) {
+      Object.assign(acc, { [cur]: svg })
+    }
+    return acc
+  }, {})
+}
+
+const vuePlugin = {
+  install(Vue) {
+    Vue.getPsSVG = getPsSVG
+    Vue.getPsSVGs = getPsSVGs
   },
 }
 
-export { icons, replace, PixelSpindleVue }
+export { icons, replace, vuePlugin }

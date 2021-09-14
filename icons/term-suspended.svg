@@ -3,7 +3,7 @@
   viewBox="0 0 500 500"
   width="500"
   height="500"
-  fill="#ffffff"
+  fill="#000000"
 >
   <path d="M323.1 94.3h-159a9.9 9.9 0 1 0 0 19.7h159a9.9 9.9 0 1 0 0-19.7z" />
   <rect x="74.1" y="94.3" width="63.2" height="63.23" />

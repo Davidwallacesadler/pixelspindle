@@ -1,6 +1,6 @@
 {
   "name": "pixelspindle",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Handcrafted icons to beatify your application",
   "main": "dist/pixelspindle.js",
   "unpkg": "dist/pixelspindle.min.js",

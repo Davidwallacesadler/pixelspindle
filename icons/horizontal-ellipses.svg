@@ -3,7 +3,7 @@
   viewBox="0 0 500 500"
   width="500"
   height="500"
-  fill="#ffffff"
+  fill="#000000"
 >
   <circle cx="427.5" cy="250.5" r="67.5" />
   <circle cx="249.5" cy="250.5" r="67.5" />
