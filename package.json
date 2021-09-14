@@ -1,7 +1,7 @@
 {
   "name": "pixelspindle",
-  "version": "0.0.0-development",
-  "description": "Simply beautiful open source icons",
+  "version": "0.1.0",
+  "description": "Handcrafted icons to beatify your application",
   "main": "dist/pixelspindle.js",
   "unpkg": "dist/pixelspindle.min.js",
   "files": [

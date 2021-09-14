@@ -4,18 +4,16 @@ import classnames from 'classnames/dedupe'
 import icons from './icons'
 
 /**
- * Replace all HTML elements that have a `data-pixelspindle` attribute with SVG markup
- * corresponding to the element's `data-pixelspindle` attribute value.
+ * Replace all HTML elements that have a `data-ps` attribute with SVG markup
+ * corresponding to the element's `data-ps` attribute value.
  * @param {Object} attrs
  */
 function replace(attrs = {}) {
   if (typeof document === 'undefined') {
-    throw new Error(
-      '`pixelspindle.replace()` only works in a browser environment.',
-    )
+    throw new Error('`ps.replace()` only works in a browser environment.')
   }
 
-  const elementsToReplace = document.querySelectorAll('[data-pixelspindle]')
+  const elementsToReplace = document.querySelectorAll('[data-ps]')
 
   Array.from(elementsToReplace).forEach(element =>
     replaceElement(element, attrs),
@@ -24,14 +22,14 @@ function replace(attrs = {}) {
 
 /**
  * Replace a single HTML element with SVG markup
- * corresponding to the element's `data-pixelspindle` attribute value.
+ * corresponding to the element's `data-ps` attribute value.
  * @param {HTMLElement} element
  * @param {Object} attrs
  */
 function replaceElement(element, attrs = {}) {
   const elementAttrs = getAttrs(element)
-  const name = elementAttrs['data-pixelspindle']
-  delete elementAttrs['data-pixelspindle']
+  const name = elementAttrs['data-ps']
+  delete elementAttrs['data-ps']
 
   const svgString = icons[name].toSvg({
     ...attrs,

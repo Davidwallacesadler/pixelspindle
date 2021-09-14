@@ -2,7 +2,8 @@
     "extends": ["airbnb-base", "prettier"],
     "plugins": ["import", "prettier"],
     "rules": {
-      "no-console": ["error", { "allow": ["warn", "error"] }],
+      "no-console": "off",
+      "no-unused-vars": "off",
       "no-param-reassign": "off",
       "no-shadow": "off",
       "no-use-before-define": "off",
