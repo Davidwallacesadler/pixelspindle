@@ -23,6 +23,9 @@ npx babel-node bin/build-svgs.js
 # Add Index.js
 npx babel-node bin/build-root-files.js
 
+# Create names.txt
+# npx babel-node bin/build-svg-names-list.js
+
 # Build JavaScript library
 # npx webpack --output-filename pixelspindle.js --mode development
 # npx webpack --output-filename pixelspindle.min.js --mode production

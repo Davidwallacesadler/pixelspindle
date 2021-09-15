@@ -1,14 +1,11 @@
-// import icons from './icons'
-// import replace from './replace'
 import classnames from 'classnames/dedupe'
-import icons from './icons.json'
+import iconJSON from './icons.json'
 
 const DEFAULT_ATTRS = {
   xmlns: 'http://www.w3.org/2000/svg',
   viewBox: '0 0 500 500',
   fill: '#000000',
 }
-
 class Icon {
   constructor(name, contents, tags = []) {
     this.name = name
@@ -19,12 +16,6 @@ class Icon {
       ...{ class: `ps ps-${name}` },
     }
   }
-
-  /**
-   * Create an SVG string.
-   * @param {Object} attrs
-   * @returns {string}
-   */
   toSvg(attrs = {}) {
     const combinedAttrs = {
       ...this.attrs,
@@ -34,45 +25,31 @@ class Icon {
 
     return `<svg ${attrsToString(combinedAttrs)}>${this.contents}</svg>`
   }
-
-  /**
-   * Return string representation of an `Icon`.
-   *
-   * Added for backward compatibility. If old code expects `ps.icons.<name>`
-   * to be a string, `toString()` will get implicitly called.
-   *
-   * @returns {string}
-   */
   toString() {
     return this.contents
   }
 }
 
-/**
- * Convert attributes object to string of HTML attributes.
- * @param {Object} attrs
- * @returns {string}
- */
 function attrsToString(attrs) {
   return Object.keys(attrs)
     .map(key => `${key}="${attrs[key]}"`)
     .join(' ')
 }
 
-const iconObjects = Object.keys(icons)
-  .map(key => new Icon(key, icons[key]))
+const icons = Object.keys(iconJSON)
+  .map(key => new Icon(key, iconJSON[key]))
   .reduce((object, icon) => {
     object[icon.name] = icon
     return object
   }, {})
 
 // Returns a string with svg contents if a match is found:
-const getPsSVG = name => {
+const getPsSvg = name => {
   if (typeof name !== `string`) {
     console.error(`PixelSpindle Plugin Error - Icon name must be a string`)
     return ``
   }
-  const icon = iconObjects[name]
+  const icon = icons[name]
   if (icon) {
     return icon.toSvg()
   }
@@ -80,28 +57,25 @@ const getPsSVG = name => {
   return ``
 }
 
-// Returns an object with { name : svg } value pairs:
-const getPsSVGs = names => {
+// Returns [{ name: , svg: }, ...]:
+const getPsSvgs = names => {
   if (typeof names !== `object` || !names.length) {
     console.error(
-      `PixelSpindle Error - getPsSVGs expects an array of icon name strings`,
+      `PixelSpindle Error - getPsSvgs expects an array of icon name strings`,
     )
-    return {}
+    return []
   }
-  return names.reduce((acc, cur) => {
-    const svg = getPsSVG(cur)
-    if (svg.length) {
-      Object.assign(acc, { [cur]: svg })
-    }
-    return acc
-  }, {})
+  return names.map(name => ({
+    name,
+    svg: getPsSvg(name),
+  }))
 }
 
 const vuePlugin = {
   install(Vue, options) {
-    Vue.prototype.$getPsSVG = getPsSVG
-    Vue.prototype.$getPsSVGs = getPsSVGs
+    Vue.prototype.$getPsSvg = getPsSvg
+    Vue.prototype.$getPsSvgs = getPsSvgs
   },
 }
 
-export { iconObjects, vuePlugin }
+export { icons, vuePlugin }
